@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body class="subpixel-antialiased">
+    <div class="flex flex-col min-h-screen">
+      <header>
+        <nav
+          class="h-[70px] bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%"
+        >
+          <div
+            class="container mx-auto px-4 h-full flex items-center justify-between"
+          >
+            <a href="#" class="text-white font-semibold text-2xl">BlogX</a>
+            <ul class="flex gap-4 text-white">
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-right-to-bracket pr-1"></i>Login</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-pen-to-square pr-1"></i>Register</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main class="grow">
+        <div
+          class="h-[300px] bg-[url('../assets/image.jpg')] bg-center bg-no-repeat bg-cover relative text-center"
+        >
+          <h1
+            class="absolute left-0 right-0 bottom-0 top-1/2 text-4xl text-white"
+          >
+            How to be more productive
+          </h1>
+        </div>
+        <div class="container mx-auto px-4">
+          <div class="text-md flex gap-2 text-gray-500">
+            <span class="">23 Jul. 2024</span>
+            <span>4 comments</span>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
+            accusantium, pariatur officia quasi voluptates possimus sequi optio?
+            At explicabo voluptatibus facilis dignissimos odio quam harum ab
+            laboriosam, minima rerum quis. Amet dolor aut architecto dignissimos
+            esse inventore sequi expedita voluptates iste facere sunt
+            necessitatibus nemo, unde nobis placeat odio numquam? Inventore modi
+            distinctio maxime at laborum libero unde quia quam. Eligendi ratione
+            similique nulla ut enim, suscipit, illo adipisci iusto incidunt
+            corrupti
+          </p>
+        </div>
+        <div class="container mx-auto px-4 py-5">
+          <h4 class="text-xl">Comments</h4>
+          <div class="flex flex-col gap-5 my-5">
+            <div class="w-full max-w-full border border-gray-200 rounded p-5">
+              <div class="flex gap-3">
+                <h4>Vadim Ostafiychuk</h4>
+                <span>23 Jul. 2023</span>
+              </div>
+              <p>Good article</p>
+            </div>
+            <div class="w-full max-w-full border border-gray-200 rounded p-5">
+              <div class="flex gap-3">
+                <h4>Vadim Ostafiychuk</h4>
+                <span>23 Jul. 2023</span>
+              </div>
+              <p>Good article</p>
+            </div>
+            <div class="w-full max-w-full border border-gray-200 rounded p-5">
+              <div class="flex gap-3">
+                <h4>Vadim Ostafiychuk</h4>
+                <span>23 Jul. 2023</span>
+              </div>
+              <p>Good article</p>
+            </div>
+            <div class="w-full max-w-full border border-gray-200 rounded p-5">
+              <div class="flex gap-3">
+                <h4>Vadim Ostafiychuk</h4>
+                <span>23 Jul. 2023</span>
+              </div>
+              <p>Good article</p>
+            </div>
+          </div>
+          <div class="flex justify-center flex-col items-center">
+            <h3>Enter your comment:</h3>
+            <form action="" class="flex flex-col gap-2 w-full md:w-1/2">
+              <textarea
+                name="content"
+                id="content"
+                class="border rounded p-2"
+                placeholder="..."
+              ></textarea>
+              <button
+                class="text-white bg-red-500 rounded-md max-w-[200px] py-1 px-10 mt-3"
+                type="submit"
+              >
+                Send
+              </button>
+            </form>
+          </div>
+        </div>
+      </main>
+      <footer
+        class="shrink text-white h-[70px] justify-center flex items-center bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%"
+      >
+        <p><i class="fa-regular fa-copyright"></i> 2024</p>
+      </footer>
+    </div>
+  </body>
+</html>
